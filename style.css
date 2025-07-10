@@ -34,6 +34,7 @@ body{
     background-image: url(Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 120px;
 }
 /* Header nav styles */
 header.nav{
@@ -62,4 +63,26 @@ header.nav{
 .title h1{
     font-size: 65px;
     font-weight: bold;
+}
+
+/* Action section styles */
+.action{
+    margin: 115px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action>.half-width{
+    width: 35%;
+}
+.half-width h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+.half-width p{
+    opacity: .5;
+}
+.half-width img{
+    width: 100%;
+    border-radius: 45px;
 }
