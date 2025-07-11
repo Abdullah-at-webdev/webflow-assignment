@@ -114,6 +114,64 @@ header.nav{
     opacity: .5;
 }
 
+/* Users Review Section Styles */
+.user-review{
+    margin: 100px auto;
+    text-align: center;
+}
+.user-review h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.User-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0;
+}
+.User-cards>.cards{
+    width: 30%;
+    text-align: left;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact img{
+    border-radius: 50%;
+}
+.contact>.reviewer{
+    text-align: left;
+}
+.reviewer h4 {
+    margin-bottom: -4px;
+    padding: 0;
+}
+
+/* Hover Button Section Styles */
+.hover-animation{
+    margin: 120px auto;
+    height: 300px;
+    text-align: center;
+    padding: 80px 500px;
+}
+.hover-animation h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.hover-animation button{
+    padding: 30px 60px;
+}
+.hover-animation button:hover{
+    background-color: rgb(6, 79, 79);
+}
 /* Newsletter Section Styles */
 .newsletter{
     display: flex;
@@ -123,6 +181,7 @@ header.nav{
     padding: 70px 0px;
     /* background-color: green; */
 }
+
 .newsletter>.newsletter-title{
     color: black;
     font-size: 60px;
