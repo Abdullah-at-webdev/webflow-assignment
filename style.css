@@ -154,3 +154,26 @@ header.nav{
 #form-button{
     padding: 15px 102px;
 }
+
+/* Footer section styles  */
+
+footer{
+    height: 300px;
+    text-align: center;
+    padding: 100px 450px;
+    background-color: #FFFFFF;
+}
+footer h2{
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0;
+}
+footer p{
+    opacity: .5;
+}
+footer a {
+    color: #252432;
+    text-decoration: none;
+    padding: 5px 20px;
+    opacity: .5;
+}
