@@ -3,6 +3,7 @@
 body{
     font-family: "Raleway", sans-serif;
     margin: 0;
+    background-color: rgb(245, 248, 255);
 }
 
 /* Shared Color */
@@ -111,4 +112,45 @@ header.nav{
 }
 .productive-user-number p{
     opacity: .5;
+}
+
+/* Newsletter Section Styles */
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    padding: 70px 0px;
+    /* background-color: green; */
+}
+.newsletter>.newsletter-title{
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    width: 50%;
+}
+.newsletter>.newsletter-form{
+    max-width: 350px;
+}
+.newsletter-form label{
+    font-weight: 500;
+    color: black;
+}
+.newsletter-form input{
+    padding: 10px 20px;
+    width: 300px;
+    margin: 10px 0;
+    border: 0;
+    border-radius: 10px;
+
+}
+.newsletter-form textarea{
+    width: 300px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    opacity: .5;
+}
+#form-button{
+    padding: 15px 102px;
 }
